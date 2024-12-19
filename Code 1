@@ -1,0 +1,218 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 10,
+        "fields": {
+            "year": 1976,
+            "summary": "America is transitioning into a new decade.  The nation hopes to move past the violence and disorder of the 60s, but the country is still grappling with issues like Vietnam, inflation, and the progress of civil rights.  As the times progress, the south seems to be slowly, but surely, changing alongside them.</p>\n\n<p>In Georgia, the state of peaches and peanuts, the various factions of the state Democratic party line up to hoist their preferred candidate to the nomination.  Through the wide field of potential candidates, one man has risen close to the top with the potential influence the direction of Georgia, the south, and the country through the next decade</p>",
+            "image_url": "https://i.insider.com/63f7a96488f76900192d00a6?width=700&format=jpeg&auto=webp",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://abcnews4.com/resources/media2/36x25/full/600/center/80/be917f41-9189-45ab-a7cc-e225e21d24b4-large36x25_AP23323745103967.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1976 Election Books and Biographies</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/0670454613/amhius20-20\" target=\"_blank\">Jules Witcover - Marathon: The Pursuit of the Presidency, 1972-1976</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/1590843630/amhius20-20\" target=\"_blank\">The Election of 1976 and the Administration of Jimmy Carter</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B007V955ZS/amhius20-20\" target=\"_blank\">Craig Shirley - Reagan's Revolution: The Untold Story of the Campaign That Started It All</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B001KBY7YI/amhius20-20\" target=\"_blank\">Douglas Brinkley - Gerald R. Ford</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0805089578/amhius20-20\" target=\"_blank\">Julian E. Zelizer - Jimmy Carter</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1970 - Peanuts and Politics"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 91,
+        "fields": {
+            "first_name": "Jimmy",
+            "last_name": "Carter",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Georgia",
+            "priority": 1,
+            "description": "<p>Throughout his transformation from peanut farmer to politician, Jimmy Carter has always been a hard man to define.</p>\n\n<p>He was born on a small farmstead in Plains, Georgia.  His family were poor, rural farmers.  Despite this upbringing, he graduated close to the top of his class at the US Naval academy due to his sharp mind, unrelenting diligence, and intense ambition. \n </p>\n\n<p>After returning from his service in the Navy's Nuclear Submarine Program and beginning a family farming venture, he was elected to the state Senate in 1962.  He became known as a fierce advocate for religious freedom and a strong education system and an opponent of literacy tests and radical segregationists.  After a failed governor bid in 1966, Jimmy Carter is returning with a newfound sense of faith and ambition.  Now in 1970, he intends to utilize a populist image to emphasize his connection with the common people.  However, he may have to compromise on his personal civil rights position in order to win.",
+            "color_hex": "#ffea00",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://people.com/thmb/yQwcYHBlDQsfob3f5Q0yBmbgn2U=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/jimmy-carter-4-1-d06b5be69c3b4652b4e255526b84a031.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can make good on your promises to clean up Washington and change the political and moral culture of the country. If you are successful, there is no reason you cannot run for reelection in 1980. Just be wary of any economic problems, or of some foreign policy crisis that could dent your popularity.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>As an outsider candidate, this was really your moment to make an impact on American politics and to win a national election. The beltway gossip already has it that Ted Kennedy is the frontrunner for the 1980 nomination. Perhaps you can run again for Governor of Georgia, or make an impact in some other way.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect you in that manner. Hopefully the closeness of this election doesn't undermine your promises to clean up Washington and unite the people of this country.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 92,
+        "fields": {
+            "first_name": "Carl",
+            "last_name": "Sanders",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Georgia",
+            "priority": 2,
+            "description": "<p>Gerald Ford assumed the Presidency on August 9, 1974, after the resignation of Richard Nixon. His pardon of Nixon is deeply unpopular and is feeding the sentiment for an outsider to assume office. Inflation and unemployment have both weighed on Ford's popularity. On the other hand, Ford enjoys the stature of a President and has negotiated with many foreign leaders. He starts the campaign in second place, and must make up ground quickly while keeping his party united.</p>",
+            "color_hex": "#2500db",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/gerald-ford-1976.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can continue to help the United States recover from the Watergate Scandal, the recent recession, and the debacle of Vietnam. In either case, this will be your final term as President. Speculation is sure to be intense on who will replace you. Will it be Ronald Reagan? Ted Kennedy? Or someone else entirely?</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>Hopefully your opponent can make good on his promises to clean up Washington and change the political and moral culture of the country. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect your opponent in that manner. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 93,
+        "fields": {
+            "first_name": "Other",
+            "last_name": "Others",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Georgia",
+            "priority": 3,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 96,
+        "fields": {
+            "first_name": "Rosalynn",
+            "last_name": "Carter",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Georgia",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://static01.nyt.com/images/2023/11/21/multimedia/20alter/20alter-superJumbo.jpg?quality=75&auto=webp",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>maybe if I write more than a placeholder this code would fucking work.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 82780,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 96
+        }
+    }
+]
+
+campaignTrail_temp.credits = "u/Political-Theme | AGeneralNerdJoe (discord)"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 20,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 10,
+        "year": 1976,
+        "is_premium": 0,
+        "display_year": "1970 - Peanuts and Politics"
+    }
+]
+
+jet_data = {
+    "headerColor": "#dbdb80",
+    "windowColor": "#ebf7ff",
+    "containerColor": "#dbf9ff",
+    "innerWindowColor": "#57a5d6",
+    "bannerImageUrl": "",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "\"I think politicians really go with the tide\" - Jimmy Carter",
+    "gameTitle": "THE TRAILS OF GEORGIA"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE TRAILS OF GEORGIA</h2><font id="wittyquote" size="4" color="white"><em>"I think politicians really go with the tide" - Jimmy Carter</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#dbdb80";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ebf7ff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#dbf9ff";
+
+document.getElementById("header").src = "";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#57a5d6!important;}</style>";
+
+//#endcode
